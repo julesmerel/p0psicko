@@ -59,7 +59,7 @@ body::-webkit-scrollbar-thumb{
 	position:absolute;
 	z-index:26;
 	border: none;
-	width:100px;
+	width:160px;
 	height:65px;
 	top:5px;
 	left:1150px;
