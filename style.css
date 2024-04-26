@@ -1,0 +1,290 @@
+body {
+    background-color: #24242c;
+}
+body::-webkit-scrollbar{
+	width: 10px;
+	background: #24242c;
+	border-radius: : 100px;
+}
+body::-webkit-scrollbar-thumb{
+	background: #d2823b;
+
+}
+
+#shortcut_Inicio{
+	position: absolute;
+	z-index:6;
+	border:none;
+	width:200px;
+	height:120px;
+	top:-29px;
+	left:300px;
+  	cursor: pointer;
+  	background-color:rgba(0,0,0,0);
+}
+
+
+#shortcut_Trabajo{
+	position: absolute;
+	z-index:6;
+	border:none;
+	width:200px;
+	height:120px;
+	top:-22px;
+	left:600px;
+  	cursor: pointer;
+  	background-color:rgba(0,0,0,0);
+}
+
+#shortcut_Contacto{
+	position: absolute;
+	z-index:6;
+	border:none;
+	width:220px;
+	height:120px;
+	top:-30px;
+	left:900px;
+  	cursor: pointer;
+  	background-color:rgba(0,0,0,0);
+}
+.error404{
+	position:absolute;
+	z-index:1;
+	width:55x;
+	height:65px;
+	top:5px;
+	left:1195px;
+}
+#error_{
+	position:absolute;
+	z-index:26;
+	border: none;
+	width:100px;
+	height:65px;
+	top:5px;
+	left:1195px;
+	cursor: pointer;
+  	background-color:rgba(0,0,0,0);
+
+}
+
+.contacto_up{
+	position:absolute;
+	z-index:2;
+	width:220px;
+	height:120px;
+	top:-30px;
+	left:900px;
+}
+.trabajo_up{
+	position:absolute;
+	z-index:2;
+	width:200px;
+	height:120px;
+	top:-22px;
+	left:599px;
+}
+.inicio_up{
+	position:absolute;
+	z-index:1;
+	width:200px;
+	height:120px;
+	top:-29px;
+	left:300px;
+}
+.about_me{
+	position:relative;
+	top:-40px;
+	width:1300px;
+	max-height:1510px;
+}
+.flecha_negra{
+	position:absolute;
+	z-index:1;
+	max-width:90px; 
+	max-height:90px; 
+	top:1305px;
+	left:1180px;
+}
+#button_Negro{
+	position: absolute;
+	z-index:6;
+	border:none;
+	width: 90px;
+  	height: 90px;
+  	top:1305px;
+  	left:1180px;
+  	cursor: pointer;
+  	background-color:rgba(0,0,0,0);
+}
+
+.slider{
+	top:685px;
+	width: 92%;
+	height: 100%;
+	left: 50px;
+	display:flex;
+	position: absolute;
+	overflow: hidden;
+}
+
+.wrapper{
+	width: 10vw;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+
+.images{
+	top:200px;
+	z-index:15;
+	position: absolute;
+	max-height: 400px;
+	width: auto;
+	display:flex;
+	align-items:center;
+	animation: slideshow 60s linear infinite ;
+}
+
+@keyframes slideshow {
+    0%, 100% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+}
+
+.BEAT{
+	max-height: 410px;
+	width: auto;
+}
+.CLAUS{
+	max-height: 410px;
+	width: auto;
+}
+.HOMESTU{
+	max-height: 410px;
+	width: auto;
+}
+.LAIN{
+	max-height: 410px;
+	width: auto;	
+}
+.ZELDA{
+	max-height: 410px;
+	width: auto;	
+}
+.LEMPRINT{
+	max-height: 410px;
+	width: auto;
+}
+.STEIN{
+	max-height: 410px;
+	width: auto;
+}
+.SPIDER{
+	max-height: 410px;
+	width: auto;
+}
+.SAILOR{
+	max-height: 410px;
+	width: auto;
+}
+.ROXY{
+	max-height: 410px;
+	width: auto;
+}
+.MIKU{
+	max-height: 410px;
+	width: auto;
+}
+.QUACKITY{
+	max-height: 410px;
+	width: auto;
+}
+.MEOW{
+	max-height:410px;
+	width: auto;
+}
+
+
+.my_work{
+	top:687px;
+	position:absolute;
+	width:1300px;
+	max-height:1800px;
+	z-index:0;
+}
+
+
+.flecha_naranja{
+	position:absolute;
+	z-index:3;
+	max-width:90px; 
+	max-height:90px; 
+	top:2005px;
+	left:1180px;
+}
+#button_naranja{
+	position: absolute;
+	z-index:5;
+	border:none;
+	width: 90px;
+  	height: 150px;
+  	top:1977px;
+	left:1180px;
+  	cursor: pointer;
+  	background-color:rgba(0,0,0,0);
+}
+.insta{
+	z-index: 5;
+	position:absolute;
+	max-width:90px;
+	max-height:90px;
+	top:1890px;
+  	left:55px;
+}
+
+#instagram_url{
+	position: absolute;
+	z-index:6;
+	border:none;
+	width:100px;
+  	height:100px;
+  	top:1890px;
+  	left:55px;
+  	cursor: pointer;
+  	background-color:rgba(0,0,0,0);
+}
+
+
+.twitter{
+	z-index: 3;
+	position:absolute;
+	max-width:90px;
+	max-height:90px;
+	top:1995px;
+  	left:65px;
+}
+
+#twitter_url{
+	position: absolute;
+	z-index:6;
+	border:none;
+	width:100px;
+  	height:100px;
+  	top:1995px;
+  	left:65px;
+  	cursor: pointer;
+  	background-color:rgba(0,0,0,0);
+}
+
+.contact{
+	z-index: 2;
+	position:absolute;
+	width:1300px;
+	max-height:1510px;
+	top:1405px;
+}
